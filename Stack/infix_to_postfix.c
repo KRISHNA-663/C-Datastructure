@@ -6,7 +6,7 @@ char stack[size];
 int top=-1;
 void push(char x){
     if(top==size-1){
-        printf("Stack is empty");
+        printf("Stack is full");
     }
     else{
       stack[++top]=x;  
